@@ -1,0 +1,27 @@
+.panelContent {
+    overflow: hidden;
+}
+
+.focusedPanel {
+    border: 2pt solid #007aff;
+}
+
+.remoteFocusedPanel {
+    border: 2pt solid #ff954f;
+}
+
+.bothFocusedPanel {
+    border: 2pt solid;
+    border-image: linear-gradient(to right, #ff954f 50%, #007aff 50%) 1;
+}
+
+.resultConsole {
+    min-height: 15vh;
+    border-radius: 5pt;
+    border: 2pt solid gray;
+    white-space: pre-line;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+}
